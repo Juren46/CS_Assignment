@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{14266675-3C2E-4B82-9204-8EB30BA2AE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{276B04F4-C49B-4DFA-96C1-25DD70D030B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14266675-3C2E-4B82-9204-8EB30BA2AE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14266675-3C2E-4B82-9204-8EB30BA2AE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14266675-3C2E-4B82-9204-8EB30BA2AE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14266675-3C2E-4B82-9204-8EB30BA2AE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276B04F4-C49B-4DFA-96C1-25DD70D030B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276B04F4-C49B-4DFA-96C1-25DD70D030B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276B04F4-C49B-4DFA-96C1-25DD70D030B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276B04F4-C49B-4DFA-96C1-25DD70D030B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C97D9C70-7E09-4C7A-A4F3-4381C01B8F19}
+	EndGlobalSection
+EndGlobal
