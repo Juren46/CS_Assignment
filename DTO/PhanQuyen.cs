@@ -9,18 +9,18 @@ namespace DTO
     public class PhanQuyen
     {
         public string MaPhanQuyen {  get; set; }
-        public string TenPhanQuen { get; set; }
+        public string TenPhanQuyen { get; set; }
 
         public PhanQuyen() 
         { 
             MaPhanQuyen = string.Empty;
-            TenPhanQuen = string.Empty;
+            TenPhanQuyen = string.Empty;
         }
 
-        public PhanQuyen(string maPhanQuyen, string tenPhanQuen)
+        public PhanQuyen(string maPhanQuyen, string tenPhanQuyen)
         {
             MaPhanQuyen = maPhanQuyen;
-            TenPhanQuen = tenPhanQuen;
+            TenPhanQuyen = tenPhanQuyen;
         }
     }
 }

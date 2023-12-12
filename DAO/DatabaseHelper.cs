@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 
 namespace DAO
 {
@@ -26,7 +27,7 @@ namespace DAO
             }
             catch (SqlException ex)
             {
-                Console.WriteLine("Error executing query: " + ex.Message);
+                Debug.WriteLine("Error executing query: " + ex.Message);
             }
             return dataTable;
         }
@@ -48,7 +49,7 @@ namespace DAO
             }
             catch (SqlException ex)
             {
-                Console.WriteLine("Error executing non-query command: " + ex.Message);
+                Debug.WriteLine("Error executing non-query command: " + ex.Message);
             }
             return rowsAffected;
         }
